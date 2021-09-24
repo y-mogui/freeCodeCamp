@@ -1,0 +1,15 @@
+body {
+  background-position: center;
+  frot-size: 1rem;
+  padding: 80px;
+  margin: 0;
+}
+
+header { 
+  text-align: center; 
+}
+
+main {
+  background-color: sliver;
+  margin: 0;
+}
