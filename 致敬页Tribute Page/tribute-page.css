@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+h1 {
+  text-align:center;
+}
+p {
+  text-align:center;
+}
+ul {
+  text-align: left;
+}
+h4 {
+  text-align:center;
+}
+#tribute-info {
+  text-align:center;
+}
