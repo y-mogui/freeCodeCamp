@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#logo {
+  padding: 50px;
+}
+
+#video {
+  display: flex;
+  align-items: center;  
+  padding: 50px;
+}
+
+#pricing {
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  #logo {
+    margin-top: 15px;
+  }
+}
