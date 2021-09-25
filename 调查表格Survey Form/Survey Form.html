@@ -7,7 +7,7 @@
   <form id="survey-form">
     
     <div class="form-group">
-    <label id="name-label">NAME</label>
+    <label id="name-label" for="name">NAME</label>
     <input type="text"
            id="name"
            placeholder="name"
@@ -15,7 +15,7 @@
     </div>
     
     <div class="form-group">
-    <label id="email-label">E-MAIL</label>
+    <label id="email-label" for="email">E-MAIL</label>
     <input type="email"
            id="email"
            placeholder="example@ex.com"
@@ -23,7 +23,7 @@
     </div>
     
     <div class="form-group">
-    <label id="number-label">Age(optional)</label>
+    <label id="number-label" for="number">Age(optional)</label>
     <input type="number"
            max="120"
            min="18"
@@ -39,8 +39,9 @@
       <option id="otherJob">Other</option>
     </select>
     </div>
-    <p>What is your favorite feature of freeCodeCamp?</p>
-    <div class="form-group">
+    
+    <fieldset class="form-group">
+    <legend>What is your favorite feature of freeCodeCamp?</legend>
       <label>
         <input 
          type="radio"
@@ -60,7 +61,7 @@
          name="user-recommend"
          value="Not sure"
          />Not sure</label>
-    </div>
+    </fieldset>
     
     <div class="form-group">
       <label>
