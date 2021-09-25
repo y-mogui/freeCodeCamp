@@ -1,0 +1,59 @@
+/* Base reset */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 导航栏 */
+#navbar {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#navbar ul{
+  background-color: #be3144;
+  margin: 0px;
+  padding: 10px 50px 40px 5px;
+}
+
+#navbar li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+/* Welcome section */
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.title {
+  display: fixed;
+  top: 20%;
+  text-align: center;
+  color: white;
+}
+
+/* Projects section */
+
+#projects a {
+  color: grey;
+}
+
+@media (max-width: 800px) {
+    html {
+    font-size: 55%;
+  }
+}
