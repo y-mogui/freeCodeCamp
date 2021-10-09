@@ -1,0 +1,15 @@
+/*通常设计*/
+.button {
+  hight: 50px;
+  width: 50px;
+  margin: auto;
+  border: none;
+  /*display: block;*/
+}
+
+#quote-box {
+  width: 450px;
+  padding: 40px 50px;
+  diaplay: table;
+  margin: 0 auto;
+}
